@@ -22,6 +22,6 @@ def now_serving(other_deli)
     else
       serving = other_deli.first
       other_deli.pop
-      puts "Currently serving ."
+      puts "Currently serving #{serving}."
     end
   end

@@ -20,4 +20,6 @@ def now_serving(other_deli)
     if other_deli == 0
       puts "There is nobody waiting to be served!"
     else
-      length = other_deli
+      length = other_deli.length
+      other_deli.pop
+      puts "Currently serving number #{length}."

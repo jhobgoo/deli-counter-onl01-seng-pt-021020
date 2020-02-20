@@ -23,3 +23,5 @@ def now_serving(other_deli)
       length = other_deli.length
       other_deli.pop
       puts "Currently serving number #{length}."
+    end
+  end

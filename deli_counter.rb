@@ -16,12 +16,12 @@ def take_a_number(other_deli, element)
   puts "Welcome, #{element}. You are number #{length} in line."
 end
 
-def now_serving(other_deli)
-    if other_deli == 0
+def now_serving(katz_deli)
+    if katz_deli == 0
       puts "There is nobody waiting to be served!"
     else
-      length = other_deli.length
-      other_deli.pop
+      length = katz_deli.length
+      katz_deli.pop
       puts "Currently serving number #{length}."
     end
   end

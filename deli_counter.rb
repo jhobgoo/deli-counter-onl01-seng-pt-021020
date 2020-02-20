@@ -11,7 +11,7 @@ def line(other_deli)
 end
 
 def take_a_number(other_deli, element)
-  length = other_deli.length
   other_deli.push(element)
+  length = other_deli.length
   puts "Welcome, #{element}. You are number #{length} in line."
 end

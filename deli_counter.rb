@@ -15,3 +15,9 @@ def take_a_number(other_deli, element)
   length = other_deli.length
   puts "Welcome, #{element}. You are number #{length} in line."
 end
+
+def now_serving(other_deli)
+    if other_deli == 0
+      puts "There is nobody waiting to be served!"
+    else
+      length = other_deli
